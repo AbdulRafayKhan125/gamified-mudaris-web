@@ -122,6 +122,7 @@ html,body{
     /* background-color: lightgreen; */
     overflow-y: scroll;
     margin-top: 15%;
+    color:#000;
 }
 .course-box{
     height:150px;
@@ -131,6 +132,62 @@ html,body{
     margin:20px 10%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.course-box:hover{
+    margin-right:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.thumbnail{
+    height:90%;
+    width:25%;
+    background-color: rgb(51, 255, 0);
+    border-radius: 15px;
+}
+
+.thumbnail>img{
+    height:100%;
+    width:100%;
+    border-radius: 15px;
+}
+
+.course-box>button{
+    height:30%;
+    width:17%;
+    background-color: lightseagreen;
+    border:none;
+    border-radius: 30px;
+
+}
+
+.course-detail{
+    height:90%;
+    width:50%;
+    /* background-color: lightcyan; */
+}
+
+.course-title{
+    height:40%;
+    width:100%;
+    margin-top: 10px;
+    /* background0px-color: #ff0000; */
+}
+.course-title>h3{
+    font-size: 1.2rem;
+    opacity:80%;
+}
+.course-title>h4{
+    opacity:70%;
+}
+
+.course-overview>p{
+    font-size: .8rem;
+    opacity:80%;
+    margin-top: 10px;
 }
 
 .search{
